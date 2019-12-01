@@ -23,7 +23,7 @@ $('.scroll-me a').bind('click', function (event) { //just pass scroll-me in desi
 var $anchor = $(this);
 $('html, body').stop().animate({
 scrollTop: $($anchor.attr('href')).offset().top
-}, 4000, 'easeInOutExpo');
+}, 1200, 'easeInOutExpo');
 event.preventDefault();
 });
 
@@ -34,7 +34,7 @@ SLIDER SCRIPTS
 
 
 $('#carousel-slider').carousel({
-interval: 2000 //TIME IN MILLI SECONDS
+interval: 6000 //TIME IN MILLI SECONDS
 });
 
 
