@@ -168,6 +168,11 @@ HOME SECTION STYLES
 #carousel-slider h3 {
     line-height: 50px;
     font-family: 'Droid Arabic Naskh', serif;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.07);
 }
 
 #carousel-slider p {
@@ -175,6 +180,11 @@ HOME SECTION STYLES
     font-size: 16px;
     line-height: 25px;
     margin: 25px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.07);
 }
 
 /* =============================================================
