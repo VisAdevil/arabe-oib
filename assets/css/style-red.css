@@ -168,6 +168,7 @@ HOME SECTION STYLES
 #carousel-slider h3 {
     line-height: 50px;
     font-family: 'Droid Arabic Naskh', serif;
+    padding: 20px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -180,6 +181,7 @@ HOME SECTION STYLES
     font-size: 16px;
     line-height: 25px;
     margin: 25px 20px;
+    padding: 20px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
