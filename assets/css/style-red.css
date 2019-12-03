@@ -247,7 +247,6 @@ WORK SECTION STYLES
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     border: 1px solid rgb(228, 79, 79);
-    text-align: center;
 }
 
 #work .work-wrapper:hover {
@@ -288,10 +287,15 @@ WORK SECTION STYLES
     left: -6000px;
 }
 
-#work .work-wrapper h4 {
+#work .work-wrapper h4{
     padding-top: 10px;
     text-align: center;
 }
+
+#work .work-wrapper img{
+   
+}
+
 
 
 
