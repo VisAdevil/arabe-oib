@@ -1,0 +1,180 @@
+﻿/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+/* =============================================================
+GOOGLE FONT
+============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/* FREE GOOGLE FONT */
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+/*font-family: 'Droid Arabic Naskh', serif;*/
+
+
+
+/* =============================================================
+GENERAL STYLES
+============================================================ */
+body {
+    font-family: 'Droid Arabic Naskh', serif;
+    color: #fff;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+.header {
+    font-family: 'Droid Arabic Naskh', serif;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.header hr {
+    width: 50px;
+    border-top: 2px solid rgb(228, 79, 79);
+}
+
+
+/* =============================================================
+CUSTOM BUTTON STYLES
+============================================================ */
+.button-custom {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin: 25px 5px 5px 0px;
+    margin: 5px;
+}
+
+.btn-custom-one {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgb(228, 79, 79);
+}
+
+.btn-custom-one:hover {
+    background-color: rgb(228, 79, 79);
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-custom-two {
+    color: #fff;
+    background-color: rgb(228, 79, 79);
+    border: 2px solid rgb(228, 79, 79);
+}
+
+.btn-custom-two:hover {
+    border: 2px solid rgb(228, 79, 79);
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+/* =============================================================
+MENU SECTION STYLES
+============================================================ */
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: transparent;
+    border-bottom: 1px solid rgb(228, 79, 79);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 5px 0px;
+    letter-spacing: 2px;
+    margin: 10px 20px 10px 20px;
+    color: #FFF;
+    text-align: right;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover {
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: rgb(228, 79, 79);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(228, 79, 79);
+}
+
+
+/* =============================================================
+HOME SECTION STYLES
+============================================================ */
+
+#home {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#home .social {
+    display: block;
+    margin: 50px 20px;
+}
+
+/*Carousel Slider*/
+
+#carousel-slider {
+    padding: 50px 20px 5px 50px;
+}
+
+#carousel-slider h3 {
+    line-height: 50px;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+#carousel-slider p {
+    color: rgb(228, 79, 79);
+    font-size: 16px;
+    line-height: 25px;
+    margin: 25px 20px;
+}
+
+
