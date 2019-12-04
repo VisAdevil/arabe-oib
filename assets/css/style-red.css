@@ -122,6 +122,11 @@ MENU SECTION STYLES
     text-align: right;
 }
 
+#pp {
+    color: rgb(228, 79, 79);
+    text-decoration: none;
+}
+
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-brand:hover {
     color: #fff;

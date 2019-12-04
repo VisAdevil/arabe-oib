@@ -33,6 +33,7 @@ GENERAL STYLES
 body {
     font-family: 'Droid Arabic Naskh', serif;
     color: #fff;
+    text-align: right;
 }
 
 section {
@@ -120,6 +121,12 @@ MENU SECTION STYLES
     margin: 10px 20px 10px 20px;
     color: #FFF;
     text-align: right;
+}
+
+#pp {
+    color: rgb(228, 79, 79);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(228, 79, 79);
 }
 
 .navbar-inverse .navbar-brand,
