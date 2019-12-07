@@ -1,0 +1,87 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title> </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/jquery.scrollgress.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/jquery.slidertron.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/Trad.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-xlarge.css" />
+    </noscript>
+</head>
+    <body class="landing">
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2 style="	text-align: center">اليوم العالمي للغة العربية</h2>
+                <p style="text-align: center">ترجم كلمات من اللغة الفرنسية إلى اللغة العربية</p>
+                <ul class="actions" style="	text-align: center">
+                    <li style="text-align: center"><a href="#one" class="button big scrolly">ترجم</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="one" class="wrapper style1" style="height: 1100px">
+            <div class="container">
+                <header class="major">
+                    <div style="width: 3000px">
+                    <h2 style="margin-right: 1600px">Instruction: </h2>
+                    <p style="margin-right: 1600px">-Pas de majuscule sauf pour les noms propres
+                        <br/>
+                          -Ne prend pas en compte la conjugaison
+                        <br/>
+                        -Ne marche que avec mots
+                        </p>
+
+                    </div>
+                    <input class=text type=text name="input1" id="input1" size="1">
+                    <br />
+                    <style>
+                        button {
+                            font-size: 2em;
+                            border: none;
+                            padding: 20px;
+                            width: 150px;
+                            font-family: monospace;
+                            border-radius: 15px;
+                            background-color: #4A4545;
+                            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+                            cursor: pointer;
+                            color: white;
+                            outline: none;
+                            transition: 0.2s;
+                        }
+
+                            button:hover {
+                                transform: scale(1.01);
+                            }
+
+                            button:active {
+                                transform: scale(0.98);
+                            }
+                    </style>
+                    <button onclick="traduire()">ترجم</button>
+                    <br />
+                    <br />
+                    <textarea id="input2" readonly rows="1" cols="2" style="font-family: Rockwell Extra Bold; font-weight: bold"></textarea>
+                </header>
+                <span class="nav-next"></span>
+            </div>
+            <strong style="margin-left: 1800px; margin-top: 300px; float:left">2020/2019 ثانوية ليوطي 221</strong>
+
+        </section>
+        
+    </body>
+</html>
