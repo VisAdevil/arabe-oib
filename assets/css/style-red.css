@@ -272,8 +272,7 @@ WORK SECTION STYLES
 }
 
 .fancybox-type-iframe .fancybox-nav {
-    width: 60px;
-    min-height: 793px;
+    width: 60px;;
 }
 
 .fancybox-type-iframe .fancybox-nav span {
