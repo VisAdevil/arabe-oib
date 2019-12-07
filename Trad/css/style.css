@@ -8,13 +8,6 @@
 */
 
 /* Basic */
-	html {
-		background-color: #ffbb6e;
-		width:1000px;
-		min-height:800px;
-		padding: 20px;
-		margin: 0 auto;
-	}
 	body {
 		background: #fff;
 	}
