@@ -34,7 +34,7 @@ SLIDER SCRIPTS
 
 
 $('#carousel-slider').carousel({
-interval: 10000 //TIME IN MILLI SECONDS
+interval: 20000 //TIME IN MILLI SECONDS
 });
 
 
