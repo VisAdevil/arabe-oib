@@ -369,7 +369,8 @@ TEAM SECTION STYLES
 
 .classe21 img{
     text-align: center;
-    width: 100%;
+    width: 90%;
+    border-radius: 50%;
 }    
 
 .team-wrapper .description {
