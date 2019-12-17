@@ -370,7 +370,7 @@ TEAM SECTION STYLES
 .classe21 img{
     text-align: center;
     width: 90%;
-    border-radius: 50%;
+    border-radius: 10px;
 }    
 
 .team-wrapper .description {
